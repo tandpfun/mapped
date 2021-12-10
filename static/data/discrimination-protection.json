@@ -1,15 +1,15 @@
 {
+  "name": "Discrimination Protections",
   "groups": [
     {
       "name": "Sexual orientation and gender identity discrimination prohibited in Employment, Housing, and Public Accommodations",
-      "color": "#1cb954"
+      "color": "#1cb954",
+      "states": ["CA"]
     },
     {
       "name": "Sexual orientation and gender identity discrimination prohibited in Employment and Public Accommodations, but not Housing",
-      "color": "#fdb64b"
+      "color": "#fdb64b",
+      "states": []
     }
-  ],
-  "states": {
-    "CA": 0
-  }
+  ]
 }

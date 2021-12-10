@@ -12,16 +12,24 @@
             Fetching Statistics
           </h1>
         </div>
-        <div v-else>
-          <select>
+        <div v-else class="flex flex-col items-center mt-5">
+          <select
+            value="none"
+            class="border-2 border-gray-400 rounded-md"
+            @input="selectDataset"
+          >
+            <option value="none" selected disabled hidden>
+              Select a Dataset
+            </option>
             <option
               v-for="set in Object.entries($store.state.data.datasets)"
               :key="set[0]"
+              :value="set[0]"
             >
-              {{ set[0] }}
+              {{ set[1].name }}
             </option>
           </select>
-          <Map v-if="$store.state.data.selectedDataset" />
+          <Map v-if="$store.state.data.selectedDataset" ref="map" />
         </div>
       </div>
     </div>
@@ -32,6 +40,12 @@
 export default {
   mounted() {
     this.$store.dispatch('data/fetchData')
+  },
+  methods: {
+    async selectDataset(event) {
+      await this.$store.commit('data/selectDataset', event.target.value)
+      this.$refs.map.renderMap()
+    },
   },
 }
 </script>
