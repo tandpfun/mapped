@@ -1,0 +1,15 @@
+{
+  "groups": [
+    {
+      "name": "Sexual orientation and gender identity discrimination prohibited in Employment, Housing, and Public Accommodations",
+      "color": "#1cb954"
+    },
+    {
+      "name": "Sexual orientation and gender identity discrimination prohibited in Employment and Public Accommodations, but not Housing",
+      "color": "#fdb64b"
+    }
+  ],
+  "states": {
+    "CA": 0
+  }
+}
