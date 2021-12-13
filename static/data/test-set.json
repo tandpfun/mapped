@@ -1,10 +1,10 @@
 {
-  "name": "Discrimination Protections",
+  "name": "Test set",
   "groups": [
     {
-      "name": "Sexual orientation and gender identity discrimination prohibited in Employment, Housing, and Public Accommodations",
+      "name": "Cute people live here",
       "color": "#1cb954",
-      "states": ["CA"]
+      "states": ["CA", "PA"]
     },
     {
       "name": "Sexual orientation and gender identity discrimination prohibited in Employment and Public Accommodations, but not Housing",

@@ -2,7 +2,7 @@
   <div>
     <div
       ref="infoBox"
-      class="opacity-0 absolute top-0 left-0 z-10 bg-opacity-80 bg-white border-gray-500 border rounded-md p-2 transition duration-100 max-w-sm"
+      class="opacity-0 absolute top-0 left-0 z-10 bg-opacity-80 bg-white border-gray-500 border rounded-md p-2 transition duration-100 max-w-sm overflow-hidden"
     ></div>
     <svg
       version="1.1"
@@ -451,8 +451,10 @@ export default {
       const data = this.$store.state.data.datasets[datasetName]
       const group = data?.groups.find((g) => g.states.includes(stateCode))
 
-      return `<b>${this.stateCodes[stateCode]}</b><br>${
-        group ? `${group.name}<br><i>Click for more!<i>` : 'No Data'
+      return `<b>${this.stateCodes[stateCode]} (${stateCode})</b><br>${
+        group
+          ? `${group.name}<br><i>Click for more!<i>`
+          : data?.unspecifiedMessage || 'No Data'
       }`
     },
   },
