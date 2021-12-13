@@ -1,0 +1,66 @@
+{
+  "name": "Mandated Sexuality Education",
+  "source": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education",
+  "unspecifiedMessage": "No Data/Not Covered",
+  "groups": [
+    {
+      "name": "State mandates medically accurate sexuality education",
+      "color": "#1cb954",
+      "states": ["CA", "HI", "IA", "ME", "NJ", "NC", "OR", "RI", "UT", "WA"]
+    },
+    {
+      "name": "State mandates sexuality education, but does not require medical accuracy",
+      "color": "#F0E540",
+      "states": [
+        "DE",
+        "DC",
+        "FL",
+        "GA",
+        "KS",
+        "KY",
+        "MD",
+        "MN",
+        "MS",
+        "MT",
+        "NV",
+        "NH",
+        "NM",
+        "ND",
+        "OH",
+        "SC",
+        "TX",
+        "VT",
+        "WV"
+      ]
+    },
+    {
+      "name": "Mandated medically-accurate sexuality education, but with specific eligibility requirements",
+      "color": "#ff8c00",
+      "states": ["TN"]
+    },
+    {
+      "name": "No mandated sexuality education",
+      "color": "#ED4245",
+      "states": [
+        "AL",
+        "AK",
+        "AZ",
+        "AR",
+        "CO",
+        "CT",
+        "ID",
+        "IL",
+        "IN",
+        "LA",
+        "MA",
+        "MI",
+        "MO",
+        "NY",
+        "OK",
+        "PA",
+        "VA",
+        "WI"
+      ]
+    }
+  ]
+}

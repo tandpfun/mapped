@@ -1,0 +1,62 @@
+{
+  "name": "Abstinence Sexuality Education",
+  "source": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education",
+  "groups": [
+    {
+      "name": "State covers the ideas of abstinence",
+      "color": "#1cb954",
+      "states": [
+        "CA",
+        "CO",
+        "CN",
+        "DC",
+        "MD",
+        "NH",
+        "NM",
+        "SD",
+        "VT",
+        "VA",
+        "WV"
+      ]
+    },
+    {
+      "name": "State covers the importance of sex only within marriage",
+      "color": "#ff8c00",
+      "states": ["ND", "VA"]
+    },
+    {
+      "name": "State stresses the ideas of abstinence",
+      "color": "#ED4245",
+      "states": [
+        "AL",
+        "AR",
+        "AZ",
+        "DL",
+        "FL",
+        "GA",
+        "HI",
+        "ID",
+        "IL",
+        "ID",
+        "KY",
+        "LA",
+        "ME",
+        "MI",
+        "MS",
+        "MO",
+        "NJ",
+        "NC",
+        "OH",
+        "OK",
+        "OR",
+        "RI",
+        "SC",
+        "TN",
+        "TX",
+        "UT",
+        "WA",
+        "WI"
+      ]
+    }
+  ]
+}
