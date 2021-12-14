@@ -1,0 +1,40 @@
+{
+  "name": "Orientation Education",
+  "description": "Some states require an inclusive or discriminatory view towards sexual orientation. A couple states require only negative information to be provided on homosexuality and/or positive emphasis on heterosexuality which invalidates many people's valid orientations.",
+  "source": {
+    "name": "Guttmacher Institute",
+    "title": "State Laws and Policies: Sex and HIV Education",
+    "date": "November 1, 2021",
+    "link": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"
+  },
+  "unspecifiedMessage": "Neither inclusive nor negative/missing data",
+  "groups": [
+    {
+      "name": "State sexual education is inclusive to sexual orientation",
+      "color": "#1cb954",
+      "states": [
+        "CA",
+        "CO",
+        "CT",
+        "DE",
+        "DC",
+        "IA",
+        "MD",
+        "NJ",
+        "OR",
+        "RI",
+        "WA"
+      ]
+    },
+    {
+      "name": "State sexual education is negative towards non-straight relationships",
+      "color": "#ED4245",
+      "states": ["FL", "IL", "LA", "MS", "TX"]
+    },
+    {
+      "name": "Required teaching that \"homosexual activity\" is is considered to be \"responsible for contact with the AIDS virus.\"",
+      "color": "#C30100",
+      "states": ["OK"]
+    }
+  ]
+}

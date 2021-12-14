@@ -1,0 +1,68 @@
+{
+  "name": "Abstinence Sexuality Education",
+  "description": "As debate over the worth of abstinence-only-until-marriage message vs. a more comprehensive and educational approach intensifies, states have created content requirements for sexuality and HIV/STD education. Abstinence education can include an abstinence pledge and be the only information about STDs provided. This isn't helpful, as the pledge is likely to be \"broken\", and no other information was provided, leading to STD transmission anyway. The best way to prevent against STD transmission is to get tested!",
+  "source": {
+    "name": "Guttmacher Institute",
+    "title": "State Laws and Policies: Sex and HIV Education",
+    "date": "November 1, 2021",
+    "link": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"
+  },
+  "groups": [
+    {
+      "name": "State requires that abstinence be covered",
+      "color": "#1cb954",
+      "states": [
+        "CA",
+        "CO",
+        "CN",
+        "DC",
+        "MD",
+        "NH",
+        "NM",
+        "SD",
+        "VT",
+        "VA",
+        "WV"
+      ]
+    },
+    {
+      "name": "State covers the importance of sex only within marriage",
+      "color": "#ff8c00",
+      "states": ["ND", "VA"]
+    },
+    {
+      "name": "State requires that abstinence be stressed",
+      "color": "#ED4245",
+      "states": [
+        "AL",
+        "AR",
+        "AZ",
+        "DL",
+        "FL",
+        "GA",
+        "HI",
+        "ID",
+        "IL",
+        "ID",
+        "KY",
+        "LA",
+        "ME",
+        "MI",
+        "MS",
+        "MO",
+        "NJ",
+        "NC",
+        "OH",
+        "OK",
+        "OR",
+        "RI",
+        "SC",
+        "TN",
+        "TX",
+        "UT",
+        "WA",
+        "WI"
+      ]
+    }
+  ]
+}

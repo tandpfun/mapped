@@ -1,0 +1,47 @@
+{
+  "name": "LGBTQ+ Housing Protections",
+  "description": "States that prohibit housing discrimination based on sexual orientation or gender identity. All housing providers that receive HUD funding cannot discriminate against an individual's sexual orientation or gender identity.",
+  "source": {
+    "name": "Wikipedia",
+    "title": "LGBT rights in the United States: Discrimination protections",
+    "date": "Accessed December 11, 2021",
+    "link": "https://en.wikipedia.org/wiki/LGBT_rights_in_the_United_States#/media/File:US_LGBT_housing_discrimination.svg"
+  },
+  "unspecifiedMessage": "Does not factor sexual orientation or gender identity/unclear",
+  "groups": [
+    {
+      "name": "Prohibits housing discrimination based on sexual orientation and gender identity",
+      "color": "#1cb954",
+      "states": [
+        "CA",
+        "OR",
+        "WA",
+        "NV",
+        "UT",
+        "CO",
+        "NM",
+        "MN",
+        "IA",
+        "IL",
+        "ME",
+        "NH",
+        "VT",
+        "NY",
+        "MA",
+        "CT",
+        "RI",
+        "NJ",
+        "DE",
+        "MD",
+        "DC",
+        "VA",
+        "HI"
+      ]
+    },
+    {
+      "name": "Prohibits housing discrimination based on sexual orientation only",
+      "color": "#F0E540",
+      "states": ["WI", "IN"]
+    }
+  ]
+}

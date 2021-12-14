@@ -1,0 +1,69 @@
+{
+  "name": "Contraception Education",
+  "description": "States have individual content requirements for what is taught in sex and STD/HIV education programs. While this map shows contraception education in sexuality education for birth control, much less states cover contraception education or condoms in STD/HIV education.",
+  "source": {
+    "name": "Guttmacher Institute",
+    "title": "State Laws and Policies: Sex and HIV Education",
+    "date": "November 1, 2021",
+    "link": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"
+  },
+  "groups": [
+    {
+      "name": "Contraception education required in sexuality education programs",
+      "color": "#1cb954",
+      "states": [
+        "AL",
+        "CA",
+        "CO",
+        "CN",
+        "DE",
+        "DC",
+        "HI",
+        "IL",
+        "ME",
+        "MD",
+        "NJ",
+        "NM",
+        "NC",
+        "OR",
+        "RI",
+        "SC",
+        "TX",
+        "VT",
+        "VA",
+        "WA",
+        "WV"
+      ]
+    },
+    {
+      "name": "No contraception education in sexuality education programs",
+      "color": "#ED4245",
+      "states": [
+        "AZ",
+        "AR",
+        "FL",
+        "GA",
+        "ID",
+        "IN",
+        "IA",
+        "KY",
+        "LA",
+        "MI",
+        "MN",
+        "MS",
+        "MO",
+        "NH",
+        "NY",
+        "ND",
+        "SD",
+        "OH",
+        "OK",
+        "PA",
+        "RI",
+        "TN",
+        "UT",
+        "WI"
+      ]
+    }
+  ]
+}

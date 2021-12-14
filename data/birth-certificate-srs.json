@@ -1,0 +1,78 @@
+{
+  "name": "Birth Certificate SRS Requirement",
+  "description": "States make their own laws about birth certificates. Some states require SRS, or sex reassignment surgery to change the name and gender marker. This surgery is often expensive and hard to access, therefore is discriminatory towards most trans people. In addition, using documents that do not match a person's gender presentation has been reported to lead to harassment and discrimination.",
+  "source": {
+    "name": "Wikipedia",
+    "title": "LGBT rights in the United States: Transgender rights in the United States",
+    "date": "Accessed December 11, 2021",
+    "link": "https://en.wikipedia.org/wiki/LGBT_rights_in_the_United_States#/media/File:Requirements_for_altering_birth_certificate_sex_in_the_US.svg"
+  },
+  "groups": [
+    {
+      "name": "SRS not required to alter name or sex on birth certificate",
+      "color": "#1cb954",
+      "states": [
+        "CA",
+        "OR",
+        "WA",
+        "NV",
+        "UT",
+        "CO",
+        "NM",
+        "KS",
+        "OK",
+        "SD",
+        "MN",
+        "MS",
+        "FL",
+        "MI",
+        "IL",
+        "IN",
+        "OH",
+        "VA",
+        "DC",
+        "MD",
+        "DE",
+        "NJ",
+        "NY",
+        "CT",
+        "RI",
+        "MA",
+        "VT",
+        "AK",
+        "HI",
+        "PA"
+      ]
+    },
+    {
+      "name": "SRS required to alter name or sex on birth certificate",
+      "color": "#F0E540",
+      "states": [
+        "MT",
+        "WY",
+        "WI",
+        "IA",
+        "NE",
+        "AZ",
+        "TX",
+        "MO",
+        "AR",
+        "LA",
+        "KY",
+        "WV",
+        "NC",
+        "SC",
+        "AL",
+        "GA",
+        "ME",
+        "NH",
+        "ND"
+      ]
+    },
+    {
+      "name": "Does not alter name or sex on birth certificates for trans people",
+      "color": "#ED4245",
+      "states": ["TN"]
+    }
+  ]
+}
