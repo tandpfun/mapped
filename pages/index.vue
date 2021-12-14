@@ -12,7 +12,10 @@
             Fetching Statistics
           </h1>
         </div>
-        <div v-else class="flex flex-col items-center mt-5">
+        <div
+          v-else
+          class="items-center mt-5 max-w-5xl mx-auto text-center w-full"
+        >
           <select
             value="none"
             class="border-2 border-gray-400 rounded-md"
@@ -29,7 +32,12 @@
               {{ set[1].name }}
             </option>
           </select>
-          <Map v-if="$store.state.data.selectedDataset" ref="map" />
+          <div
+            class="flex flex-col p-8 bg-gray-50 mx-5 mt-4 rounded-lg items-center max-w-6xl"
+          >
+            <Key class="mb-4" />
+            <Map ref="map" />
+          </div>
         </div>
       </div>
     </div>

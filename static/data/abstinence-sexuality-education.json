@@ -1,9 +1,15 @@
 {
   "name": "Abstinence Sexuality Education",
-  "source": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education",
+  "description": "As debate over the worth of abstinence-only-until-marriage message vs. a more comprehensive and educational approach intensifies, states have created content requirements for sexuality and HIV/STD education.",
+  "source": {
+    "name": "Guttmacher Institute",
+    "title": "State Laws and Policies: Sex and HIV Education",
+    "date": "November 1, 2021",
+    "link": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"
+  },
   "groups": [
     {
-      "name": "State covers the ideas of abstinence",
+      "name": "State requires that abstinence be covered.",
       "color": "#1cb954",
       "states": [
         "CA",
@@ -20,12 +26,12 @@
       ]
     },
     {
-      "name": "State covers the importance of sex only within marriage",
+      "name": "State requires covering the importance of sex only within marriage.",
       "color": "#ff8c00",
       "states": ["ND", "VA"]
     },
     {
-      "name": "State stresses the ideas of abstinence",
+      "name": "State requires that abstinence is stressed.",
       "color": "#ED4245",
       "states": [
         "AL",

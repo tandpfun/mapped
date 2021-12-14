@@ -1,6 +1,12 @@
 {
   "name": "Mandated Sexuality Education",
-  "source": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education",
+  "description": "30 states and DC mandate that, when provided, sex and STD/HIV education programs meet certain general requirements. Only 18 states require program content to be medically accurate. 26 states and DC require instruction to be appropriate for the students’ age. 9 states require the program to provide instruction that is appropriate for a student’s cultural background and that is not biased against any race, sex or ethnicity. Only 3 states prohibit the program from promoting religion. 40 states and DC require school districts to involve parents in sex education, HIV education or both. Some parents never provide this information, causing students to use other inaccurate sources like pornography.",
+  "source": {
+    "name": "Guttmacher Institute",
+    "title": "State Laws and Policies: Sex and HIV Education",
+    "date": "November 1, 2021",
+    "link": "https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education"
+  },
   "unspecifiedMessage": "No Data/Not Covered",
   "groups": [
     {

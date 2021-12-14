@@ -2,7 +2,7 @@
   <div>
     <div
       ref="infoBox"
-      class="opacity-0 absolute top-0 left-0 z-10 bg-opacity-80 bg-white border-gray-500 border rounded-md p-2 transition duration-100 max-w-sm overflow-hidden"
+      class="opacity-0 absolute top-0 left-0 z-10 bg-opacity-80 bg-white border-gray-500 border rounded-md p-2 transition duration-100 overflow-hidden"
     ></div>
     <svg
       version="1.1"
@@ -10,11 +10,10 @@
       preserveAspectRatio="xMinYMin meet"
       x="0px"
       y="0px"
-      width="959px"
-      height="593px"
       viewBox="174 100 959 593"
       enable-background="new 174 100 959 593"
       xml:space="preserve"
+      class="w-full"
     >
       <g id="g5" ref="states">
         <path

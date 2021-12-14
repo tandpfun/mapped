@@ -1,6 +1,12 @@
 {
   "name": "LGBTQ+ Hate Crime Law",
-  "source": "https://en.wikipedia.org/wiki/LGBT_rights_in_the_United_States#/media/File:Map_of_LGBT-related_hate_crime_law_in_the_United_States.svg",
+  "description": "Hate crime laws protect against crimes caused by hatred towards a protected class. As of October 2009, Congress passed the Matthew Shepard Act, which expanded the definition of hate crimes to include gender, sexual orientation, gender identity, and disability. The map below displays state hate crime laws.",
+  "source": {
+    "name": "Wikipedia",
+    "title": "LGBT rights in the United States: Hate crime laws",
+    "date": "Accessed December 11, 2021",
+    "link": "https://en.wikipedia.org/wiki/LGBT_rights_in_the_United_States#/media/File:Map_of_LGBT-related_hate_crime_law_in_the_United_States.svg"
+  },
   "unspecifiedMessage": "State hate crimes law uninclusive of sexual orientation or gender identity",
   "groups": [
     {

@@ -1,9 +1,15 @@
 {
   "name": "Birth Certificate SRS Requirement",
-  "source": "https://en.wikipedia.org/wiki/LGBT_rights_in_the_United_States#/media/File:Requirements_for_altering_birth_certificate_sex_in_the_US.svg",
+  "description": "States make their own laws about birth certificates. Some states require SRS, or sex reassignment surgery to change the name and gender marker. This surgery is often expensive and hard to access, therefore is discriminatory towards most trans people. In addition, using documents that do not match a person's gender presentation has been reported to lead to harassment and discrimination.",
+  "source": {
+    "name": "Wikipedia",
+    "title": "LGBT rights in the United States: Transgender rights in the United States",
+    "date": "Accessed December 11, 2021",
+    "link": "https://en.wikipedia.org/wiki/LGBT_rights_in_the_United_States#/media/File:Requirements_for_altering_birth_certificate_sex_in_the_US.svg"
+  },
   "groups": [
     {
-      "name": "State does not require SRS to alter sex on birth certificate",
+      "name": "State does not require SRS to alter name or sex on birth certificate",
       "color": "#1cb954",
       "states": [
         "CA",
@@ -39,7 +45,7 @@
       ]
     },
     {
-      "name": "Altering sex on birth certificate requires SRS",
+      "name": "State requires SRS to alter name or sex on birth certificate",
       "color": "#F0E540",
       "states": [
         "MT",
@@ -64,7 +70,7 @@
       ]
     },
     {
-      "name": "State does not alter sex on birth certificates for transgender people",
+      "name": "State does not alter name or sex on birth certificates for transgender people",
       "color": "#ED4245",
       "states": ["TN"]
     }
