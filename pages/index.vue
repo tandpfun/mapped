@@ -21,9 +21,7 @@
             class="border-2 border-gray-400 rounded-md"
             @input="selectDataset"
           >
-            <option value="none" selected disabled hidden>
-              Select a Dataset
-            </option>
+            <option value="none" selected disabled>Select a Dataset</option>
             <option
               v-for="set in Object.entries($store.state.data.datasets)"
               :key="set[0]"
@@ -33,11 +31,11 @@
             </option>
           </select>
           <div
-            class="flex flex-col p-8 bg-gray-50 mx-5 mt-4 rounded-lg items-center max-w-6xl text-justify"
+            class="flex flex-col px-8 pt-8 pb-4 bg-gray-50 mx-5 mt-4 rounded-lg items-center max-w-6xl text-justify"
           >
             <Key class="mb-4" />
             <Map ref="map" class="w-full" />
-            <Sources />
+            <Sources class="mt-8" />
           </div>
         </div>
       </div>

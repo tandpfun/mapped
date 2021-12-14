@@ -1,16 +1,6 @@
 <template>
   <div>
-    <svg
-      version="1.1"
-      id="us-map"
-      preserveAspectRatio="xMinYMin meet"
-      x="0px"
-      y="0px"
-      viewBox="174 100 959 593"
-      enable-background="new 174 100 959 593"
-      xml:space="preserve"
-      class="w-full"
-    >
+    <svg id="us-map" viewBox="174 100 959 593" xml:space="preserve">
       <g id="g5" ref="states">
         <path
           id="HI"
@@ -448,9 +438,7 @@ export default {
       const group = data?.groups.find((g) => g.states.includes(stateCode))
 
       return `<b>${this.stateCodes[stateCode]} (${stateCode})</b><br>${
-        group
-          ? `${group.name}`
-          : data?.unspecifiedMessage || 'No Data'
+        group ? `${group.name}` : data?.unspecifiedMessage || 'No Data'
       }`
     },
   },
