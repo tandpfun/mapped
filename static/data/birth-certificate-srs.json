@@ -9,7 +9,7 @@
   },
   "groups": [
     {
-      "name": "State does not require SRS to alter name or sex on birth certificate",
+      "name": "SRS not required to alter name or sex on birth certificate",
       "color": "#1cb954",
       "states": [
         "CA",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "name": "State requires SRS to alter name or sex on birth certificate",
+      "name": "SRS required to alter name or sex on birth certificate",
       "color": "#F0E540",
       "states": [
         "MT",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "State does not alter name or sex on birth certificates for transgender people",
+      "name": "Does not alter name or sex on birth certificates for trans people",
       "color": "#ED4245",
       "states": ["TN"]
     }

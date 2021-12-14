@@ -10,12 +10,12 @@
   "unspecifiedMessage": "No Data/Not Covered",
   "groups": [
     {
-      "name": "State mandates medically accurate sexuality education",
+      "name": "Mandates medically accurate sexuality education",
       "color": "#1cb954",
       "states": ["CA", "HI", "IA", "ME", "NJ", "NC", "OR", "RI", "UT", "WA"]
     },
     {
-      "name": "State mandates sexuality education, but does not require medical accuracy",
+      "name": "Mandates sexuality education, but does not require medical accuracy",
       "color": "#F0E540",
       "states": [
         "DE",

@@ -9,7 +9,7 @@
   },
   "groups": [
     {
-      "name": "State requires contraception education in sexuality education programs",
+      "name": "Contraception education required in sexuality education programs",
       "color": "#1cb954",
       "states": [
         "AL",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "No contraception education is provided in sexuality education programs",
+      "name": "No contraception education in sexuality education programs",
       "color": "#ED4245",
       "states": [
         "AZ",

@@ -33,14 +33,19 @@
             </option>
           </select>
           <div
-            class="flex flex-col p-8 bg-gray-50 mx-5 mt-4 rounded-lg items-center max-w-6xl"
+            class="flex flex-col p-8 bg-gray-50 mx-5 mt-4 rounded-lg items-center max-w-6xl text-justify"
           >
             <Key class="mb-4" />
-            <Map ref="map" />
+            <Map ref="map" class="w-full" />
+            <Sources />
           </div>
         </div>
       </div>
     </div>
+    <div
+      ref="infoBox"
+      class="opacity-0 absolute top-0 left-0 z-10 bg-opacity-80 bg-white border-gray-500 border rounded-md p-2 transition duration-100 overflow-hidden max-w-md"
+    ></div>
   </div>
 </template>
 

@@ -1,9 +1,5 @@
 <template>
   <div>
-    <div
-      ref="infoBox"
-      class="opacity-0 absolute top-0 left-0 z-10 bg-opacity-80 bg-white border-gray-500 border rounded-md p-2 transition duration-100 overflow-hidden"
-    ></div>
     <svg
       version="1.1"
       id="us-map"
@@ -417,17 +413,18 @@ export default {
   },
   methods: {
     handleStateHover(event) {
-      const infoBox = this.$refs.infoBox
+      const infoBox = this.$parent.$refs.infoBox
       infoBox.innerHTML = this.stateHoverData(event.target.id)
-      this.$refs.infoBox.classList.add('opacity-100')
-      this.$refs.infoBox.classList.remove('opacity-0')
+      infoBox.classList.add('opacity-100')
+      infoBox.classList.remove('opacity-0')
     },
     handleStateMouseLeave(event) {
-      this.$refs.infoBox.classList.remove('opacity-100')
-      this.$refs.infoBox.classList.add('opacity-0')
+      const infoBox = this.$parent.$refs.infoBox
+      infoBox.classList.remove('opacity-100')
+      infoBox.classList.add('opacity-0')
     },
     handleMouseMove(event) {
-      const infoBox = this.$refs.infoBox
+      const infoBox = this.$parent.$refs.infoBox
       if (!infoBox) return
       infoBox.style.top = `${event.pageY - infoBox.clientHeight - 20}px`
       infoBox.style.left = `${event.pageX - infoBox.clientWidth / 2}px`
@@ -452,7 +449,7 @@ export default {
 
       return `<b>${this.stateCodes[stateCode]} (${stateCode})</b><br>${
         group
-          ? `${group.name}<br><i>Click for more!<i>`
+          ? `${group.name}`
           : data?.unspecifiedMessage || 'No Data'
       }`
     },
