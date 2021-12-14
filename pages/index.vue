@@ -39,6 +39,27 @@
           </div>
         </div>
       </div>
+      <div class="text-center mt-4">
+        <p>
+          &copy; {{ new Date().getFullYear() }} Thijs S | Data collected from
+          cited sources.
+        </p>
+        <p>
+          Found a mistake? Open an issue on
+          <a
+            href="https://github.com/tandpfun/mapped"
+            target="_blank"
+            class="text-blue-400 hover:underline"
+            >GitHub</a
+          >, or
+          <a
+            href="mailto:coding@channelbot.xyz"
+            target="_blank"
+            class="text-blue-400 hover:underline"
+            >email me</a
+          >.
+        </p>
+      </div>
     </div>
     <div
       ref="infoBox"

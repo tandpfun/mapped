@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mapped',
+    title: 'Mapped - United States',
     htmlAttrs: {
       lang: 'en',
     },
