@@ -1,69 +1,14 @@
-# mapped
+# Mapped - United States
 
-## Build Setup
+**Note:** This project was built as a final project for a sexuality education class covering topics of gender, orientation, consent, and other topics not often found in these types of classes. The goal of this project was to promote better education on these topics for all by putting this data in an easily understandable format.
 
-```bash
-# install dependencies
-$ yarn install
+https://mapped.thijs.gg
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Project Description
+  When taking this class, I really found the data about education on these topics across the country surprising. I learned of how little states require this education, even less medically accurate education, and that struck me. Religion, personal beliefs, and not taking care to understand “why” were getting in the way of creating safe and positive lives for many people. It struck me further when I learned that some things taught in my elementary and middle schools were borderline incorrect, or taught in a weird way, and were very heteronormative. And in addition, a friend of mine across the country getting some of this false, “abstinence is the only way” education from a really old textbook even today surprised me. But something super important that didn’t hit me at first was the big picture: the data on what was going on in each state, and how it differed from my experience. I wanted to build something that could help me, and many other people, see and understand this.<br><br>
+  I chose a website as my format, as millions of students and even more people across the country have internet access. It’s a format which can be easily accessible and utilized in research projects, classrooms, or just for fun. I really enjoyed the process of this project. Not only did I learn a lot about information on my selected topics, but I improved my skills in developing websites. I also designed this project in a very flexible way, allowing me to edit or add new datasets through simply formatted files. If I wanted to improve on this project in the future, or add more topics, that would be easy to do. I hope that my audience and future sophomores enjoy the data displayed this way as much as I did, and that someone uses or expands on it to make a well-needed change in any, or all of my covered topics. In the end, I’m very happy with how it turned out, but I feel like there’s always more data I could be displaying!<br><br>
+  While any final project I make isn’t likely to provide as great of an education as this class, easily accessible and well-displayed data can help people see and understand what’s really happening in our country. It can be used to educate students to become future changemakers through seeing these problems, and promote change through factual information. My goal is for this project to do that. To be used in ways that make the future safe and positive for everyone.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+## Project Screenshots
+![image](https://user-images.githubusercontent.com/28990589/146101725-94152bdc-750c-416c-9d5b-f85e98d5c8a9.png)
+![image](https://user-images.githubusercontent.com/28990589/146101757-6e75f979-915d-4a66-b8e2-d09a80506394.png)
